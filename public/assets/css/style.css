@@ -151,8 +151,13 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #d92cf9;}
 /*.nav li*/
-
-
+.logo{
+    position: fixed;
+    height: 50px;
+    left: 21px;
+    width: 50px;
+    top:14px;
+}
 
 /*.menu-ui-design*/
 .menu-ui-design{overflow-y:scroll;height: 350px;}
