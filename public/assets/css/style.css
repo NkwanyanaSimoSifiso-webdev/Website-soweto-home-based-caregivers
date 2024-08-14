@@ -277,7 +277,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2cb8f9;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-about-img{
+    position: relative;
+    box-shadow: 0 5px 20px rgba(14,25,80,.30);
+}
 .single-about-img:before {
     position:  absolute;
     content: " ";
@@ -343,7 +346,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2cb8f9;}
 }
 
 /*.education-horizontal-timeline*/
-.education-horizontal-timeline .col-sm-4 {padding:0 2px;}
+.education-horizontal-timeline .col-sm-4 {
+    padding:20px 35px;
+    text-align: center;
+}
 
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
@@ -375,9 +381,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
-.skills {
+/*.skills {
     
-}
+}*/
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
 .section-heading h2 {
@@ -385,6 +391,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-weight: 600;
     text-transform: uppercase;
     padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
     border-bottom: 1px solid #e5ebf2;
 }
 .single-progress-txt {
@@ -787,9 +795,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.contact-add-info */
 
 /*hm-foot-icon*/
-.hm-foot-icon {
+/*.hm-foot-icon {
    
-}
+}*/
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
     color: #636a82;
