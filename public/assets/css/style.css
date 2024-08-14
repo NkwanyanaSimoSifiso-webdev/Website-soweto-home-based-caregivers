@@ -154,7 +154,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 .logo{
     position: fixed;
     height: 50px;
-    left: 21px;
+    left: 110px;
     width: 50px;
     top:14px;
 }
@@ -199,6 +199,32 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2cb8f9;}
     background-size:cover;
     background-position: center;
     height:800px;/* we changed this from 890px*/
+    display: flex;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    animation: changeBackground 17s infinite; /* Apply the animation */
+}
+
+@keyframes changeBackground {
+    0% {
+        background-image: url('../images/background\ 1.jpg');
+    }
+    20% {
+        background-image: url('../images/background\ 2.jpg');
+    }
+    40% {
+        background-image: url('../images/background\ 3.jpg');
+    }
+    60% {
+        background-image: url('../images/background\ 4.jpg');
+    }
+    80% {
+        background-image: url('../images/background\ 5.jpg');
+    }
+    100% {
+        background-image: url('../images/background\ 6.jpg'); /* Loop back to the first image */
+    }
 }
     
 .welcome-hero:before{
