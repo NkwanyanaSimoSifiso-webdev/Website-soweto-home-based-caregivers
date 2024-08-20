@@ -310,9 +310,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2cb8f9;}
 /*.single-about-img */
 .single-about-img{
     position: relative;
+<<<<<<< Updated upstream
     left: 750px;
     bottom:1000px;
     box-shadow: 0 5px 20px rgba(14,25,80,.30);
+=======
+    left: 700px; ;
+    bottom:1000px ;
+   
+>>>>>>> Stashed changes
 }
 .single-about-img:before {
     position:  absolute;
@@ -322,10 +328,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2cb8f9;}
     width: 109%;
     height:  100%;
     
+    
 }
 .single-about-img img {
-    max-width: 300px;
+    max-width: 510px;
     height: 268px;
+    border-radius: 50%;
 }
 .about-list-icon{
     display: flex;
