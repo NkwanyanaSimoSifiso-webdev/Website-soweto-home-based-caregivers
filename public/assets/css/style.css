@@ -786,6 +786,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     text-transform:capitalize;
     margin-top: 3px;
     background: #007c1f;
+    color: #000000;
     border: 1px solid #007c1f;
     border-radius: 20px;
     cursor:pointer;
@@ -801,7 +802,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-top:0px;
     outline: 0 !important;
     border:0;
-    color: #fff;
+    color: #000000;
     border-radius: 0px;
     font-size:14px;
     -webkit-transition: .5s; 
