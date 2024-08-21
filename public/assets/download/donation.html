@@ -3,123 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate to Our Cause</title>
+    <title>SOWETO HOME BASED CAREGIVERS</title>
+    <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="../logo/logo 2.jpg"/>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional: link to your stylesheet -->
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 500px;
-        }
-        h1 {
+            background-color: #fdfafa;
             color: #333;
+        }
+        header {
+            background: #38d860;
+            color: #fff;
+            padding: 10px 0;
             text-align: center;
         }
-        .form-group {
-            margin-bottom: 15px;
+        nav {
+            background: #fdf6f6;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #696666;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: none;
+            color: #007c1f;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .donation-form {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            align-items:center;
+        }
+        h2 {
+            color: #333;
         }
         label {
             display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
+            margin: 10px 0 5px;
         }
-        input[type="text"],
-        input[type="email"],
-        input[type="number"],
-        textarea {
-            width: 100%;
+        input[type="text"], input[type="number"], input[type="email"], select {
+            width: 55%;
             padding: 10px;
-            border: 2px solid #030303;
-            border-radius: 20px;
-            box-sizing: border-box;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 60px;
+            border: 2px solid #000000;
         }
         input[type="submit"] {
-            background-color: #28a745;
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 4px;
+            background: #007c1f;
+            color: #fff;
+            border: 2px solid #007c1f;
+            border-radius: 70px;
+            padding: 15px;
             cursor: pointer;
+            
+           
             font-size: 16px;
         }
         input[type="submit"]:hover {
-            background-color: #218838;
+            background: #ffffff;
+            color: #007c1f;
         }
-        .message {
+        .payment-methods {
             margin-top: 20px;
-            text-align: center;
         }
-        .message p {
-            margin: 0;
-            font-size: 18px;
+        .payment-methods img {
+            width: 100px;
+            margin-right: 10px;
         }
-        .navbar ul{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  background-color:rgb(255, 255, 255); 
-  overflow:hidden;
-  position: fixed;
-  top: 0;
+        .bank-details {
+            margin-top: 30px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .bank-details h3 {
+            margin-top: 0;
+        }
+        .hm-foot-icon ul li>a:hover{
+    color: #007c1f;
+}/*hm-foot-icon*/
+
+.hm-footer-copyright p{
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 38px 0;
+    background-color: #007c1f;
+    text-align: center;
 }
-.navbar a{
-  color:#4d4a4a;
-  text-decoration:none;
-  padding:15px;
-  display:block;
-  text-align:center ;
+.hm-footer-copyright p a {color: #888ea5;}
+/*===============================
+    Scroll Top
+===============================*/
+#scroll-Top  .return-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    background:#007c1f;
+	border:1px solid #007c1f;
+	border-radius:50%;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+	z-index: 2;
 }
-.navbar a:hover{
-  background-color:hsl(310, 69%, 50%) ;
-}
-.navbar li{
-  float:left;
+#scroll-Top  .return-to-top:hover {
+    background:#fff;
+    color: #007c1f;
+	border:1px solid #007c1f;
 }
 
+#scroll-Top  .return-to-top i{
+    position:relative;
+    bottom:0;
+   
+
+}
     </style>
 </head>
 <body>
-    <nav class="navbar">
-        <ul> 
-            <li class="smooth-menu"><a href="index.html">Home</a></li>
-        </ul>
-      </nav>
+    <header>
+        
+        <h1></a>SOWETO HOME BASED CAREGIVERS</h1>
+    </header>
+    
+    <nav>
+        <a href="../../index.html">Home</a>
+        <!--<a href="#">About Us</a>
+        <a href="#">Programs</a>
+        <a href="#">Contact</a>
+        <a href="donation.html">Donate</a>-->
+    </nav>
+    
     <div class="container">
-        <h1>Support Our Cause</h1>
-        <form action="/submit-donation" method="POST">
-            <div class="form-group">
-                <label for="name">Full Name</label>
+        <div class="donation-form">
+            <h2>Make a Donation</h2>
+            <form action="" method="post">
+                <label for="name">Full Name:</label>
                 <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email Address</label>
+
+                <label for="email">Email Address:</label>
                 <input type="email" id="email" name="email" required>
+
+                <label for="amount">Donation Amount (R):</label>
+                <input type="number" id="amount" name="amount" min="1" step="any" required >
+
+                <label for="payment-method">Payment Method:</label>
+                <select id="payment-method" name="payment_method" required>
+                    <!--<option value="credit_card">Credit Card</option>-->
+                    <!--<option value="paypal">PayPal</option>-->
+                    <!--<option value="cryptocurrency">Cryptocurrency</option>-->
+                    <option value="bank_transfer">Bank Transfer</option>
+                </select>
+
+               
+            </form>
+            <a href="#bank-details"><input type="submit" value="Donate Now" href=""></a>
+            <div class="payment-methods">
+                <h3>Accepted Payment Methods</h3>
+                <!--<img src="../images/credit_cards.jpeg-1-1.jpg" alt="Credit Card">-->
+                <!--<img src="../images/PAYPAL.png" alt="PayPal">-->
+                <!--<img src="images/bitcoin.png" alt="Bitcoin">-->
+                <!-- Add more payment method images as needed -->
             </div>
-            <div class="form-group">
-                <label for="amount">Donation Amount (R)</label>
-                <input type="number" id="amount" name="amount" min="1" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message (Optional)</label>
-                <textarea id="message" name="message" rows="4"></textarea>
-            </div>
-            <input type="submit" value="Donate Now">
-        </form>
-        <div class="message">
-            <p>Your support makes a difference!</p>
+        </div>
+        <section id="bank-details" class="bank-details">
+        <div class="bank-details">
+            <h3>Bank Transfer Details</h3>
+            <p>If you prefer to make a donation via bank transfer, please use the following details:</p>
+            <p><strong>Bank Name:</strong> Tymebank</p>
+            <p><strong>Account Name:</strong>soweto home based caregivers </p>
+            <p><strong>branch:</strong> 678910</p>
+            <!--<p><strong>Sort Code:</strong> 12-34-56</p>
+            <p><strong>IBAN:</strong> GB12EXAM34567890123456</p>
+            <p><strong>SWIFT/BIC:</strong> EXAMP123</p>-->
+            <p>Please include your name and email in the transfer reference so we can acknowledge your donation.</p>
         </div>
     </div>
+    <!--footer-copyright start-->
+		<footer id="footer-copyright" class="footer-copyright">
+			<div class="container">
+				<div class="hm-footer-copyright text-center">
+					<p>
+						&copy; 2024 Soweto home based caregivers. design and developed by Relebohile, Simo, and Thapelo
+					</p><!--/p-->
+				</div><!--/.text-center-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" ></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-copyright-->
+		<!--footer-copyright end-->
+		
 </body>
 </html>
