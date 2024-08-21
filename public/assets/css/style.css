@@ -277,15 +277,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2cb8f9;}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-<<<<<<< Updated upstream
+
 .about {
     padding: 60px 0 100px;
     top:50px ;
 }
-=======
+
 .about {padding: 60px 0 100px;
 margin-bottom: 0;}
->>>>>>> Stashed changes
+
 .about-content {padding-top: 90px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
@@ -315,21 +315,19 @@ margin-bottom: 0;}
 /*.single-about-img */
 .single-about-img{
     position: relative;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
     left: 750px;
     bottom:1000px;
     box-shadow: 0 5px 20px rgba(14,25,80,.30);
-=======
+
     left: 700px; ;
     bottom:1000px ;
    
->>>>>>> Stashed changes
-=======
+
     bottom: 1000px;
     left: 700px;
     
->>>>>>> Stashed changes
+
 }
 .single-about-img:before {
     position:  absolute;
