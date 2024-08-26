@@ -310,7 +310,7 @@ margin-bottom: 0;}
     position: relative;
     left: 700px;
     bottom:1000px;
-    box-shadow: 0 5px 20px rgba(14,25,80,.30);
+    box-shadow: none;
 }
 .single-about-img:before {
     position:  absolute;
@@ -325,7 +325,7 @@ margin-bottom: 0;}
 .single-about-img img {
     max-width: 510px;
     height: 268px;
-    border-radius: 50%;
+    border-radius: 0;
 }
 .about-list-icon{
     display: flex;
