@@ -40,7 +40,7 @@ font-family: 'Poppins', sans-serif;
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
-	color: #676a81;
+	color: #000000;
 	background: #fff;
     max-width:1920px;
     margin:0 auto;
@@ -50,7 +50,7 @@ body{
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
-	color: #6a708e;
+	color: #000000;
 	font-size:16px;
 	padding:0;
 }
@@ -64,7 +64,7 @@ h1,h2,h3,h4,h5,h6 {
 p {
 	margin-top: 20px;
 	line-height:1.8;
-	color:#43485c;
+	color:#000000;
 	font-size:14px;
 	font-family: 'Poppins', sans-serif;
 }
@@ -124,6 +124,7 @@ nav.navbar.bootsnav {
     font-weight: 600;
     padding: 33px 0px 57px;
     text-transform: uppercase;
+
 }
 /*.navbar-brand*/
 
@@ -153,9 +154,9 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 /*.nav li*/
 .logo{
     position: fixed;
-    height: 50px;
-    left: 110px;
-    width: 50px;
+    height: 40px;
+    left: 50px;
+    width: 40px;
     top:14px;
 }
 
@@ -290,7 +291,7 @@ margin-bottom: 0;}
 }
 .single-about-txt p {
     font-size: 16px;
-    color: #999fb3;
+    color: #000000;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
     
@@ -393,7 +394,7 @@ margin-bottom: 0;}
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
 .single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
-.single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
+.single-horizontal-timeline p {color: #000000;max-width: 335px;}
 
 /*.timeline-horizontal-border*/
 .timeline-horizontal-border {
@@ -429,7 +430,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
-    padding-bottom: 50px;
+    padding-bottom: -100px;
     padding-top: 50px;
     padding-left: 20px;
     border-bottom: 1px solid #e5ebf2;
@@ -753,12 +754,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .contact-form .form-control {
     padding: 25px;
     font-size: 14px;
-    border: 1px solid #353131;
+    border: 1px solid #000000;
     border-radius: 20px;
     box-shadow: none;
     outline: 0!important;
     background: #fff;
-    color: #636a82;
+    color: #030303;
     resize: none;
 }
 
@@ -815,7 +816,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .contact-add-head p {
     font-size:  16px;
     text-transform: capitalize;
-    color:  #636a82;
+    color:  #000000;
     font-weight:  300;
     margin-top:  6px;
 }
@@ -824,11 +825,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*.contact-add-info */
 .contact-add-info { margin: 42px 0 52px;}
 .single-contact-add-info h3 {
-    color:  #636a82;
+    color:  #000000;
     font-weight:  500;
 }
 .single-contact-add-info p {
-    color:  #999fb3;
+    color:  #000000;
     font-size:  16px;
     margin-top:  18px;
 }
