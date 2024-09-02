@@ -719,6 +719,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -ms-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
+     
 }
 .isotope .item:hover  img{
     -webkit-transform:scale(1.5);
