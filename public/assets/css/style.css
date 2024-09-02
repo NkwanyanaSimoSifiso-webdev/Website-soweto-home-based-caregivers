@@ -196,35 +196,43 @@ nav.navbar.bootsnav .navbar-toggle i{color: #2cb8f9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/backgroundimage.jpg)no-repeat;
+    /* background:url(../images/about/backgroundimage.jpg)no-repeat; */
     background-size:cover;
     background-position: center;
     height:800px;/* we changed this from 890px*/
-    display: flex;
     text-align: center;
-    background-size: cover;
-    background-position: center;
     animation: changeBackground 17s infinite; /* Apply the animation */
 }
 
 @keyframes changeBackground {
     0% {
         background-image: url('../images/background\ 1.jpg');
+        object-fit: cover;
     }
     20% {
         background-image: url('../images/background\ 2.jpg');
+        object-fit: cover;
+        object-position: center;
     }
     40% {
         background-image: url('../images/background\ 3.jpg');
+        object-fit: cover;
+        object-position: center;
     }
     60% {
         background-image: url('../images/background\ 4.jpg');
+        object-fit: cover;
+        object-position: center;
     }
     80% {
         background-image: url('../images/background\ 5.jpg');
+        object-fit: cover;
+        object-position: center;
     }
     100% {
         background-image: url('../images/background\ 6.jpg'); /* Loop back to the first image */
+        object-fit: cover;
+        object-position: center;
     }
 }
     
@@ -423,6 +431,14 @@ video {
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
 .single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
 .single-horizontal-timeline p {color: #000000;max-width: 335px;}
+
+.single-horizontal-timeline .rounded {
+    border-radius: 8px;
+}
+
+/* * {
+    outline: 2px solid red;
+} */
 
 /*.timeline-horizontal-border*/
 .timeline-horizontal-border {
