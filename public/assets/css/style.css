@@ -699,6 +699,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 .portfolio-content {padding-top: 100px;}
 
+.portfolio-content .item {
+    border-radius: 8px;
+}
+
 /* ---- .item ---- */
 .isotope:after {
     content: '';
